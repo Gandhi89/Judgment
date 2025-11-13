@@ -3,7 +3,7 @@
     "name": "Judgment",
     "slug": "Judgment",
     "version": "1.0.0",
-    "orientation": "landscape",
+    "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "judgment",
     "userInterfaceStyle": "automatic",
@@ -48,6 +48,14 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "updates": {
+      "url": "https://u.expo.dev/81fbef5d-c2d5-4805-811e-2c0b1d38905a",
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_LOAD"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     },
     "extra": {
       "router": {},
