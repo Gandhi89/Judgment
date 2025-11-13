@@ -8,6 +8,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint",
+    "build:development": "eas build --profile development",
+    "build:preview": "eas build --profile preview",
+    "build:production": "eas build --profile production",
     "update:development": "eas update --branch development --message",
     "update:preview": "eas update --branch preview --message",
     "update:production": "eas update --branch production --message"
